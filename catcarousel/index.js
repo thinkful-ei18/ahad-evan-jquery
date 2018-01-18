@@ -7,7 +7,7 @@
 'use strict';
 
 
-$('.thumbnails').on('click', function(event) {
+$('.thumbnail').on('click', function(event) {
   // let targetSrcAttr = $(event.target).attr('src');
   // let targetAltAttr = $(event.target).attr('alt');
   let srcAttribute = $(this).find('img').attr('src');
