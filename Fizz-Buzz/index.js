@@ -19,7 +19,7 @@ function fizzBuzz(countTo) {
 //   return result;
 }
 
-$("button").on("click",event=>{
+$("form").on("submit",event=>{
     event.preventDefault();
     let val=$("input").val();
     
