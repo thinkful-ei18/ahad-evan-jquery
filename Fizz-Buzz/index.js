@@ -1,6 +1,6 @@
 function fizzBuzz(countTo) {
   
-//   const result = [];
+  const result = [];
   
   for (let i = 1; i <= countTo; i++) {
     if (i % 15 === 0) {
@@ -10,13 +10,11 @@ function fizzBuzz(countTo) {
     } else if (i % 3 === 0) {
       result.push('fizz');
     } else {
-       
-      $(".js-results").append("<div class='fizz-buzz-item'><span>1</span></div>");
-
-    //   result.push(i);
+     
+      result.push(i);
     }
   }
-//   return result;
+  return result;
 }
 
 $("form").on("submit",event=>{
